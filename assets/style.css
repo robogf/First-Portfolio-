@@ -11,7 +11,7 @@ body {
 
 .header{
     padding: 40px;
-    border-bottom: 10px solid white;
+    border-bottom: 10px solid black;
     padding-bottom: 10px;
     background-color: #3d4a4c;
     font-family:Georgia, 'Times New Roman', Times, serif;    
@@ -59,4 +59,28 @@ font-size: 20px ;
 a:hover{
     font-size: 25px;
     
+}
+
+.About {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2.5%;
+    border: 60px;
+    margin-right: 40px;
+    margin-top: 40px;
+}
+
+.About h2{
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    border-right:10px solid black;
+    padding-right: 10px;
+    height: 100px
+    
+    
+    
+}
+
+.About p{
+    text-align: center;
 }
