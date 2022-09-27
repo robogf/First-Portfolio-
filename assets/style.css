@@ -212,3 +212,35 @@ a:hover{
     border-style: solid;
     text-align: center;
 }
+.Contact{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 2.5%;
+    border-bottom: 10px solid black;
+    margin-right: 40px;
+    margin-top: 120px;
+    margin-bottom: 60px;
+}
+.Contact h2 {
+    text-align: left;
+    display: inline-block;
+    font-weight: bold;
+    border-right:10px solid black;
+    padding-right: 10px;
+    height: 100px
+}
+
+
+
+.Contact div ul {
+    list-style-type: ;
+    margin-top: 0px;
+    margin-left: 55%;
+    padding-left: 10px;
+}
+.Contact div  li {
+    display: inline-block;
+    margin-top: .5px;
+    border-radius: 3px;
+    border-style:double;
+    background-color: slategrey;
+    }
