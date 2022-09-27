@@ -232,7 +232,7 @@ a:hover{
 
 
 .Contact div ul {
-    list-style-type: ;
+    list-style-type: none;
     margin-top: 0px;
     margin-left: 55%;
     padding-left: 10px;
