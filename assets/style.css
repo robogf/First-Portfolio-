@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+   
 }
 
 body {
@@ -71,6 +71,7 @@ a:hover{
     margin-right: 40px;
     margin-top: 120px;
     margin-bottom: 60px;
+    
 }
 
 .About h2{
@@ -93,3 +94,28 @@ a:hover{
     font-size: autos;
     margin-left: 150px;
 }
+
+
+img {
+    max-width: 15%;
+    height: 20%;
+    align-items: center;
+    position: relative;
+    
+}
+
+.container {
+    margin-top: 200px;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat (5, 1fr) ;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
