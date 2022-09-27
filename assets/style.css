@@ -107,9 +107,10 @@ a:hover{
 }
 
 .container {
-    margin-top: 90px;
+    
     display: grid;
     grid-template-columns: 40% 60%;
+    grid-template-rows: 40% 60%;
     grid-gap: 100px;
     
   }
@@ -159,6 +160,53 @@ a:hover{
     transform: scale(1.1);
 }
 .box2 p{
+    font-size: 17px;
+    font-weight: bold;
+    border-style: solid;
+    text-align: center;
+}
+.box3 {
+    border-top: 10px solid black;
+    padding-top: 5px;
+}
+.box3 img {
+   position: relative;
+   vertical-align: bottom;
+    width: 70%;
+    height: 70%;
+    border-style: ridge;
+    border: 5px solid black;  
+}
+.box3 img:hover{
+    opacity: 30%;
+    transform: scale(1.1);
+
+}
+.box3 p{
+    font-size: 17px;
+    font-weight: bold;
+    border-style: solid;
+    text-align: center;
+}
+
+.box4{
+    border-left:10px solid black;
+    padding-left: 2.5px;
+}
+
+.box4 img {
+    position: relative;
+    vertical-align: bottom;
+    width: 50%;
+    height: 50%;
+    border-style: ridge;
+    border: 5px solid black;
+}
+.box4 img:hover{
+    opacity: 30%;
+    transform: scale(1.1);
+}
+.box4 p{
     font-size: 17px;
     font-weight: bold;
     border-style: solid;
