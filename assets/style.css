@@ -141,3 +141,26 @@ a:hover{
     border-style: solid;
     text-align: center;
 }
+.box2 {
+    border-bottom: 10px solid black;
+    padding-bottom: 5px;
+}
+.box2 img {
+    position: relative;
+    vertical-align: bottom;
+    width: 60%;
+    height: 60%;
+    border-style: ridge;
+    border: 5px solid black;
+
+}
+.box2 img:hover{
+    opacity: 30%;
+    transform: scale(1.1);
+}
+.box2 p{
+    font-size: 17px;
+    font-weight: bold;
+    border-style: solid;
+    text-align: center;
+}
